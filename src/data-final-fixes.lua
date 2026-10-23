@@ -2,7 +2,12 @@ local constants = require "scripts.constants"
 local recipe = data.raw.recipe[constants.ENTITY_NAME]
 local item = data.raw.item[constants.ENTITY_NAME]
 
-if mods["cybersyn"] and data.raw.technology["cybersyn-train-network"] then
+-- Detected by prototype rather than mod name so that compatible forks of Project Cybersyn also work.
+if not data.raw["virtual-signal"]["cybersyn-request-threshold"] then
+  error("\n\n" .. constants.MOD_TITLE .. " requires Project Cybersyn (cybersyn) or a compatible fork such as Project Cybersyn Plus (cybersyn-plus).\n\n")
+end
+
+if data.raw.technology["cybersyn-train-network"] then
   table.insert(
     data.raw.technology["cybersyn-train-network"].effects,
     { type = "unlock-recipe", recipe = constants.ENTITY_NAME })

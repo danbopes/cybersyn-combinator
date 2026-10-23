@@ -10,7 +10,8 @@
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1.8",
-    "cybersyn >= 2.1.2",
+    "? cybersyn >= 2.1.2",
+    "? cybersyn-plus >= 3.2.0",
     "flib >= 0.17.2"
   ],
   "package": {

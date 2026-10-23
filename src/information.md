@@ -1,6 +1,7 @@
 # Cybersyn Combinator
 
-This mod adds a new fancy combinator to the game, made to be used with the [Project Cybersyn][cybersyn] mod.
+This mod adds a new fancy combinator to the game, made to be used with the [Project Cybersyn][cybersyn] mod
+or a compatible fork of it such as [Project Cybersyn Plus][cybersyn-plus]. One of them must be installed.
 
 It functions like a regular constant combinator, but has built-in support for setting the various Cybersyn-specific signals.
 
@@ -97,6 +98,7 @@ The recipe is altered to use 1x Logic Circuit and 1x Memory Circuit, as well as 
 
 [github]: https://github.com/Sharparam/cybersyn-combinator
 [cybersyn]: https://mods.factorio.com/mod/cybersyn
+[cybersyn-plus]: https://mods.factorio.com/mod/cybersyn-plus
 [ltnc]: https://mods.factorio.com/mod/LTN_Combinator_Modernized
 [ltn]: https://mods.factorio.com/mod/LogisticTrainNetwork
 [nullius]: https://mods.factorio.com/mod/nullius
